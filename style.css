@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 231, 214);
+}
+.currency-container{
+    background-color: white;
+    margin-top: 5rem;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 3px rgb(70, 70, 70);
+    text-align: center;
+}
+.currency-container h2{
+    font-size: 1.2rem;
+    color: rgb(127, 2, 127);
+    margin-bottom: 1.5rem;
+}
+
+.currency-container .input-container{
+    border: 1.5px solid grey;
+    margin-top: 0.8rem;
+}
+.currency-container .input-container:focus-within{
+    border-color: rgb(69, 24, 110);
+}
+
+.currency-container .input-container input,.currency-container .input-container select{
+       border: none;
+       outline: none;
+       padding: 0.8rem;
+       color:rgb(127, 2, 127);
+       font-weight: 600;
+}
+
+.currency-container .arrow-container{
+    margin-top: 1rem;
+}
+.currency-container .arrow-container #arrow{
+    color:rgb(127, 2, 127);
+}
+
+.currency-container .result-container{
+    margin-top: 1.5rem;
+}
+.currency-container .result-container .result-msg{
+    color: rgb(127, 2, 127);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
